@@ -13,7 +13,7 @@ const Services = () => {
           alt="green grass"
           className="w-auto h-auto opacity-50"
         />
-        <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div
             className=" text-gray-800 text-2xl text-center font-heaviest   leading-[1.5] md:text-4xl lg:text-4xl "
             style={{ letterSpacing: '0.2em' }}
@@ -65,7 +65,7 @@ const Services = () => {
           <div key={id} className={gridItemClassName} id={id}>
             <div className="max-w-2xl">
               <div className="grid grid-cols-2">
-                <div className="flex flex-col justify-center items-center h-full my-8">
+                <div className="flex flex-col justify-center items-center h-full ml-2 my-8">
                   <h3 className="service-title text-center ">{service}</h3>
                   <p className="service-info text-center">{description}</p>
                 </div>
