@@ -9,7 +9,7 @@ import Hamburger from './Hamburger'
 import OpenNav from './OpenNav'
 
 const Header = () => {
-  let [open, setIsOpen] = useState(false)
+  let [isOpen, setIsOpen] = useState(false)
   const [isSmallScreen, setIsSmallScreen] = useState(false)
 
   const handleWindowResize = () => {
@@ -26,10 +26,10 @@ const Header = () => {
   if (isSmallScreen) {
     return (
       <>
-        {open ? (
-          <OpenNav open={open} setIsOpen={setIsOpen} />
+        {isOpen ? (
+          <OpenNav isOpen={isOpen} setIsOpen={setIsOpen} />
         ) : (
-          <Hamburger open={open} setIsOpen={setIsOpen} />
+          <Hamburger isOpen={isOpen} setIsOpen={setIsOpen} />
         )}
       </>
     )

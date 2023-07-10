@@ -5,7 +5,7 @@ const Footer = () => {
   const year = date.getFullYear()
   return (
     <>
-      <footer className="bg-gray-800 text-gray-300 py-4 text-center">
+      <footer className="bg-gray-800 text-gray-300 py-4 text-sm text-center">
         &copy; {year} Coley Lawn Care. All rights reserved.
       </footer>
     </>

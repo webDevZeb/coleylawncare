@@ -13,8 +13,9 @@ const Contact = () => {
               <div>
                 <h1 className="font-bold text-4xl tracking wide">Contact Us</h1>
                 <p className="pt-2 text-green-100 text-md">
-                  Please feel free to email or call today for quotes,
-                  scheduling, or any other questions you may have.
+                  Servicing the greater Taylorsville, NC area. Please feel free
+                  to email or call today for quotes, scheduling, or any other
+                  questions you may have.
                 </p>
               </div>
               <div className="space-y-6">
